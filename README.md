@@ -1,6 +1,9 @@
 "# N0vaTirInver2425" 
 
-Design meerting Notes
+
+VERSION : 5.3.2
+
+Design meeting Notes
 
 ### Meeting Notes
 
@@ -66,3 +69,5 @@ Design meerting Notes
 - **Recording Duration**: Approximately 40 minutes. 
 
 These notes summarize the key discussions, objectives, and next steps to ensure alignment moving forward.
+
+

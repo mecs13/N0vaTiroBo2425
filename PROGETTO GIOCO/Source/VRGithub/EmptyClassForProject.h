@@ -20,7 +20,7 @@
 /**
  * 
  */
-class TIROCINIO_API EmptyClassForProject
+class VRGITHUB_API EmptyClassForProject
 {
 public:
 	EmptyClassForProject();

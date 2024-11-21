@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Tirocinio : ModuleRules
+public class VRGithub : ModuleRules
 {
-	public Tirocinio(ReadOnlyTargetRules Target) : base(Target)
+	public VRGithub(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
        // PrivatePCHHeaderFile = "Private/WindowsMixedRealityPrecompiled.h";

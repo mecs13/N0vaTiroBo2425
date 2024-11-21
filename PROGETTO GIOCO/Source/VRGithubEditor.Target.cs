@@ -3,15 +3,15 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class TirocinioEditorTarget : TargetRules
+public class VRGithubEditorTarget : TargetRules
 {
-	public TirocinioEditorTarget(TargetInfo Target) : base(Target)
+	public VRGithubEditorTarget(TargetInfo Target) : base(Target)
 	{
         DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
         Type = TargetType.Editor;
-        ExtraModuleNames.AddRange(new string[] { "Tirocinio" });
+        ExtraModuleNames.AddRange(new string[] { "VRGithub" });
 		//bUseUnityBuild = false;
 		//bUsePCHFiles = false;
     }
@@ -26,6 +26,6 @@ public class TirocinioEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "Tirocinio" } );
+		OutExtraModuleNames.AddRange( new string[] { "VRGithub" } );
 	}*/
 }

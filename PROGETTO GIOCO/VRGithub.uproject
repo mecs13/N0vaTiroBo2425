@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Tirocinio",
+			"Name": "VRGithub",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

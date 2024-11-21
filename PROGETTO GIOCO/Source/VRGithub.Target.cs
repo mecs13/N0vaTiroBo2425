@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class TirocinioTarget : TargetRules
+public class VRGithubTarget : TargetRules
 {
-	public TirocinioTarget(TargetInfo Target) : base(Target)
+	public VRGithubTarget(TargetInfo Target) : base(Target)
 	{
 
         DefaultBuildSettings = BuildSettingsVersion.V2;
@@ -13,7 +13,7 @@ public class TirocinioTarget : TargetRules
 
         //bUseLoggingInShipping = true;
         Type = TargetType.Game;
-        ExtraModuleNames.AddRange(new string[] { "Tirocinio" });
+        ExtraModuleNames.AddRange(new string[] { "VRGithub" });
         //bUsePCHFiles = false;
         //bUseUnityBuild = false;
 
@@ -56,6 +56,6 @@ public class TirocinioTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "Tirocinio" } );
+		OutExtraModuleNames.AddRange( new string[] { "VRGithub" } );
 	}*/
 }

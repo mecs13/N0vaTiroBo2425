@@ -1,7 +1,5 @@
 ### How do I get set up? ###
 
-VERSION: 5.1.1
-
 Current compatible versions for template: Latest Engine Version (Template is not kept to as many compatible versions as the plugin itself).
 
 * Right click on VRExpPluginExample.uproject and switch to your preferred (compatible) engine version.
